@@ -1,11 +1,22 @@
 {
   "name": "@useless/store",
   "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/store.umd.js",
+  "module": "./dist/store.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/store.es.js",
+      "require": "./dist/store.umd.js"
+    }
+  },
   "scripts": {
     "build": "vite build"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^17.0.21",
     "vite": "^2.6.4"
   }
 }
