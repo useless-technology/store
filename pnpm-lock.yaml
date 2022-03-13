@@ -2,7 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/node': ^17.0.21
+  consola: ^2.15.3
   vite: ^2.6.4
+
+dependencies:
+  consola: 2.15.3
 
 devDependencies:
   '@types/node': 17.0.21
@@ -13,6 +17,10 @@ packages:
   /@types/node/17.0.21:
     resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
     dev: true
+
+  /consola/2.15.3:
+    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
+    dev: false
 
   /esbuild-android-arm64/0.13.13:
     resolution: {integrity: sha512-T02aneWWguJrF082jZworjU6vm8f4UQ+IH2K3HREtlqoY9voiJUwHLRL6khRlsNLzVglqgqb7a3HfGx7hAADCQ==}
